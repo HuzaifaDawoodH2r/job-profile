@@ -101,7 +101,7 @@ export default function SkillsSection() {
                       <CircularProgress
                         percentage={skill.level}
                         color={skill.color}
-                        size={window?.innerWidth < 768 ? 100 : 140}
+                   
                       />
 
                       {/* Icon in center */}
@@ -204,7 +204,8 @@ export default function SkillsSection() {
                           style={{
                             left: `${Math.random() * 100}%`,
                             top: `${Math.random() * 100}%`,
-                          }}
+                          }}     
+                          
                         />
                       ))}
                     </div>
